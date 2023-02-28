@@ -1,0 +1,17 @@
+{
+  "action": {
+    "default_icon": {
+      "24": "icon24.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "description": "chromeManifestV3でクッキー取得デモ",
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "manifest_version": 3,
+  "name": "cookie取得デモ",
+  "permissions": ["tabs", "webRequest"],
+  "version": "1"
+}
